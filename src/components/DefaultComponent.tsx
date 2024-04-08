@@ -1,6 +1,6 @@
 import useDefault from '../hooks/useDefault';
 
-export const UseDefaultComponent = () => {
+export const DefaultComponent = () => {
   const initialState = { animal: 'Chat' };
   const defaultState = { animal: 'Chien' };
 

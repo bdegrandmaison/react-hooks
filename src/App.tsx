@@ -1,13 +1,15 @@
 import './App.css';
-import { UseDocumentTitleComponent } from './components/UseDocumentTitleComponent';
-import { UseDefaultComponent } from './components/useDefaultComponent';
+import { DocumentTitleComponent } from './components/DocumentTitleComponent';
+import { DefaultComponent } from './components/DefaultComponent';
+import { ToggleComponent } from './components/ToggleComponent';
 
 function App() {
   return (
     <div className="App">
       <h1>Hooks rewritten</h1>
-      <UseDocumentTitleComponent />
-      <UseDefaultComponent />
+      <DocumentTitleComponent />
+      <DefaultComponent />
+      <ToggleComponent />
     </div>
   );
 }

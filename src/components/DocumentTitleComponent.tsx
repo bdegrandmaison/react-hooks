@@ -1,7 +1,7 @@
 import { FormEvent, useState } from 'react';
 import useDocumentTitle from '../hooks/useDocumentTitle';
 
-export const UseDocumentTitleComponent = () => {
+export const DocumentTitleComponent = () => {
   const [title, setTitle] = useState(document.title);
   const [newTitle, setNewTitle] = useState(document.title);
 
