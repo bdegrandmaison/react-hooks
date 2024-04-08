@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { FormEvent, useState } from 'react';
 import useDocumentTitle from '../hooks/useDocumentTitle';
 
 export const UseDocumentTitleComponent = () => {
@@ -7,7 +7,7 @@ export const UseDocumentTitleComponent = () => {
 
   useDocumentTitle(newTitle);
 
-  const handleSubmitTitle = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmitTitle = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setNewTitle(title);
   };
