@@ -46,7 +46,7 @@ export const ToggleComponent = () => {
       </button>
       <pre>
         <label className="switch">
-          <input type="checkbox" checked={on} />
+          <input type="checkbox" checked={on} onChange={(e) => e.preventDefault()} />
           <span className="slider round" />
         </label>
       </pre>
