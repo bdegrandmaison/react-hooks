@@ -13,8 +13,8 @@ export const UseDocumentTitleComponent = () => {
   };
 
   return (
-    <div>
-      <h2>Hook 1</h2>
+    <section>
+      <h2>Hook 1: useDocumentTitle</h2>
       <h3>Update Document Title</h3>
       <p>
         This hook allows you to change the document title. To use it, simply enter your title in the
@@ -30,6 +30,6 @@ export const UseDocumentTitleComponent = () => {
         />
         <button type="submit">Update Title</button>
       </form>
-    </div>
+    </section>
   );
 };
