@@ -4,6 +4,7 @@ import { DefaultComponent } from './components/DefaultComponent';
 import { ToggleComponent } from './components/ToggleComponent';
 import { PreviousComponent } from './components/PreviousComponent';
 import { PreferredLanguageComponent } from './components/PreferredLanguageComponent';
+import { FaviconComponent } from './components/FaviconComponent';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <ToggleComponent />
       <PreviousComponent />
       <PreferredLanguageComponent />
+      <FaviconComponent />
     </div>
   );
 }
