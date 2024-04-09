@@ -3,6 +3,7 @@ import { DocumentTitleComponent } from './components/DocumentTitleComponent';
 import { DefaultComponent } from './components/DefaultComponent';
 import { ToggleComponent } from './components/ToggleComponent';
 import { PreviousComponent } from './components/PreviousComponent';
+import { PreferredLanguageComponent } from './components/PreferredLanguageComponent';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <DefaultComponent />
       <ToggleComponent />
       <PreviousComponent />
+      <PreferredLanguageComponent />
     </div>
   );
 }
