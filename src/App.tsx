@@ -5,6 +5,7 @@ import { ToggleComponent } from './components/ToggleComponent';
 import { PreviousComponent } from './components/PreviousComponent';
 import { PreferredLanguageComponent } from './components/PreferredLanguageComponent';
 import { FaviconComponent } from './components/FaviconComponent';
+import { CopyToClipboardComponent } from './components/CopyToClipboardComponent';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <PreviousComponent />
       <PreferredLanguageComponent />
       <FaviconComponent />
+      <CopyToClipboardComponent />
     </div>
   );
 }
